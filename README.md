@@ -59,9 +59,9 @@ This command requires a table named "professors" with the following structure:
 
 **Command description**  
   
-  Sends information about all lessons that are currently taking place. If a specific year is specified, it only sends information about the selected year, followed by the upcoming lesson (if it exists). The result looks like this (no year specified):
+  Sends information about all lessons that are currently taking place. If a year is specified, it also sends the upcoming lesson (if it exists).
  
- **Command output**  
+ **Command output (No year specified)**  
    
 <img src="https://github.com/gselivanof/ecebot/blob/main/README_ASSETS/now.png" width="300" >
 </br>
