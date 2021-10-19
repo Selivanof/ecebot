@@ -121,7 +121,7 @@ async def on_ready():
 @bot.command(name='update',pass_context=True)
 @commands.has_permissions(administrator=True)
 async def updateRoles(ctx):
-  if os.getenv('ALLOW_UPDATE') == '1':
+  if os.getenv('ALLOW_UPDATE') == '1': #An enviroment variable can disable this command so that it is not used by mistake
     print('Updating roles...')
     
     log_title = "Roles Update | " + datetime.today().strftime('%d-%m-%Y')
@@ -191,7 +191,7 @@ async def info(ctx, name=None):
       embed.add_field(name="Ιστοσελίδα: ", value=prof_data[7], inline=False)
 
       if prof_data[8]:
-        embed.set_image(url='prof_data[8]')
+        embed.set_image(url=prof_data[8])
         
       await ctx.send(embed=embed) 
     else:
