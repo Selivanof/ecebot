@@ -95,4 +95,15 @@ This command requires a table for each year named "schedule_yearx", where x is t
     
    
 # Schedule Importer
-TBA
+
+**Description**
+
+In order to not add every lesson manually, we use the html schedule provided by https://classschedule.auth.gr/#/ and import it into the database using schedule_importer.py.
+
+**Usage**
+
+- A schedule.html file must be in the same directory as schedule_importer.py. 
+- Modifying the 'year' variable in the python script lets us select which year's schedule we want to import 
+- Uncommenting the line that executes the TRUNCATE commands allows for removal of all rows from the table before importing the lessons. 
+
+Note that the script automatically creates a table named "schedule_yearx", where x is the number of year (1-5), if it does not already exist.
