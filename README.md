@@ -1,6 +1,6 @@
 # THMMY Bot
 
-A discord utility bot used in the Electrical and Computer Engineering - AUTH student's discord server. It utilizes a PostgreSQL database to provide schedule and professor information to the members, while also providing some server-specific utilities to the admins.  
+A discord utility bot used in the Electrical and Computer Engineering - AUTH student's discord server (not officially affiliated with the university). It utilizes a PostgreSQL database to provide schedule and professor information to the members, while also providing some server-specific utilities to the admins.  
 Note that all the messages sent by the bot that are meant to be viewed by non-admin server members are written in the server's main language, greek.
 # Table of contents
 
